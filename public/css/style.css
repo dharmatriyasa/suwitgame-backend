@@ -1,0 +1,323 @@
+.bg-img {
+  background: #08090a;
+  background-image: url("../images/main-bg.jpg");
+  background-image: url("../images/main-bg.jpg"),
+    radial-gradient(
+      189.96% 61.18% at 50% 38.82%,
+      rgba(255, 181, 72, 0) 0%,
+      rgba(52, 44, 29, 0.80319) 73.22%,
+      #08090a 99.74%
+    );
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mz {
+  margin: 0;
+}
+
+.pz {
+  padding: 0;
+}
+
+.full-screen {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.max-height {
+  max-height: 100vh;
+}
+
+.game-choice-img {
+  background-image: url("../images/the-games-bg.jpg");
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-feature {
+  background-image: url("../images/features.jpg");
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-req {
+  background-image: url("../images/requirements.png");
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-score {
+  background-image: url("../images/the-games-bg.jpg");
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-footer {
+  background-image: url("../images/bg-footer.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-black {
+  background-color: #1a1b1c;
+}
+
+/* .radial-img{
+    background: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
+} */
+
+.fs-s {
+  font-size: 12px;
+}
+
+.fs-sxm {
+  font-size: 14px;
+}
+
+.fs-sm {
+  font-size: 16px;
+}
+
+.fs-sml {
+  font-size: 18px;
+}
+
+.fs-m {
+  font-size: 24px;
+}
+
+.fs-mx {
+  font-size: 36px;
+}
+
+.fs-mxl {
+  font-size: 56px;
+}
+
+.fs-xl {
+  font-size: 72px;
+}
+
+.fw-m {
+  font-weight: 400;
+}
+
+.fw-xl {
+  font-weight: 700;
+}
+
+.opensans-font {
+  font-family: "Open Sans";
+}
+
+.arial-font {
+  font-family: Arial;
+}
+
+.fade-1 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pl-1-5 {
+  padding-left: 0.4rem;
+}
+
+.padding-left {
+  padding-left: 150px;
+}
+
+.padding-right {
+  padding-right: 150px;
+}
+
+.padding-right-20 {
+  padding-right: 20rem;
+}
+
+.padding-top {
+  padding-top: 150px;
+}
+
+.padding-top-h {
+  padding-top: 150px;
+}
+
+.padding-mx {
+  padding-top: 200px;
+}
+
+.margin-top-75 {
+  margin-top: 75px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.margin-top {
+  margin-top: 150px;
+}
+
+.margin-top-h {
+  margin-top: 150px;
+}
+
+.img-width-s {
+  width: 800px;
+}
+
+.btn-1 {
+  width: 260px;
+  height: 60px;
+}
+
+.lt-space-2 {
+  letter-spacing: 2px;
+}
+
+.border-white {
+  border: thin solid rgba(151, 151, 151, 0.1);
+}
+
+.border-b-white {
+  border-bottom: thin solid rgba(151, 151, 151, 0.5);
+}
+
+.test {
+  border: solid 1px red;
+}
+
+@media (max-width: 576px) {
+  .fs-s-rem {
+    font-size: 0.8rem;
+  }
+
+  .fs-m {
+    font-size: 20px;
+  }
+
+  .fs-xl {
+    font-size: 36px;
+  }
+
+  .fs-m {
+    font-weight: 400;
+  }
+
+  .fs-mxl {
+    font-size: 36px;
+  }
+
+  .fw-xl {
+    font-weight: 700;
+  }
+
+  .center-576 {
+    text-align: center;
+  }
+
+  .padding-right {
+    padding-right: 0px;
+  }
+
+  .padding-left {
+    padding-left: 0px;
+  }
+
+  .btn-1 {
+    width: 160px;
+    height: 60px;
+  }
+
+  .img-width-s {
+    width: 280px;
+    padding-top: 150px;
+  }
+
+  .full-screen {
+    height: auto;
+  }
+
+  .margin-top-h {
+    margin-top: 150px;
+  }
+
+  .padding-top-h {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .fs-s-rem {
+    font-size: 0.8rem;
+  }
+
+  .fs-m {
+    font-size: 22px;
+  }
+
+  .fs-xl {
+    font-size: 48px;
+  }
+
+  .fs-m {
+    font-weight: 400;
+  }
+
+  .fw-xl {
+    font-weight: 700;
+  }
+
+  .img-width-s {
+    width: 600px;
+  }
+
+  .padding-left {
+    padding-left: 0px;
+  }
+  .padding-right {
+    padding-right: 0px;
+  }
+
+  .center-768 {
+    text-align: center;
+  }
+
+  .pt-768 {
+    padding-top: 50px;
+  }
+
+  .pb-768 {
+    padding-bottom: 50px;
+  }
+
+  .full-screen {
+    height: auto;
+  }
+
+  .margin-top-h {
+    margin-top: 250px;
+  }
+
+  .padding-top-h {
+    padding-top: 300px;
+  }
+}

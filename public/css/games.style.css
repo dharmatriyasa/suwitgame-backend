@@ -1,0 +1,172 @@
+.mz {
+  margin: 0;
+}
+
+.pz {
+  padding: 0;
+}
+
+.bg-fs {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.bg-brown {
+  background-color: #9c835f;
+}
+
+/* .test{
+    border: 1px solid red;
+} */
+
+.w-flex {
+  width: 75%;
+}
+
+.w-refresh {
+  width: 100%;
+}
+
+.w-nav {
+  width: 50%;
+}
+
+.fs {
+  font-size: 16px;
+}
+
+.fs-m {
+  font-size: 18px;
+}
+
+.bg-active,
+.bg-icon:hover {
+  background-color: #c4c4c4;
+  border-radius: 30px;
+}
+
+.bg-win {
+  background-color: #4c9654;
+  border-radius: 10px;
+  animation: fadeIn 1s;
+}
+
+.bg-draw {
+  background-color: #035b0c;
+  border-radius: 10px;
+  animation: fadeIn 1s;
+}
+
+.unhidden {
+  display: block;
+}
+
+.hidden {
+  display: none;
+  position: relative;
+  right: 100%;
+  transform: rotate(-30deg);
+  width: 400%;
+}
+
+.rotate {
+  animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.fade-out {
+  animation: fadeOut 0.5s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .w-flex {
+    width: 80%;
+  }
+
+  .w-nav {
+    width: 100%;
+  }
+
+  .fs {
+    font-size: 36px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .w-flex {
+    width: 80%;
+  }
+  .hidden {
+    display: none;
+    position: relative;
+    right: 30%;
+    transform: rotate(-30deg);
+    width: 200%;
+  }
+  .fs-m {
+    font-size: 28px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .w-flex {
+    width: 100%;
+  }
+  .w-refresh {
+    width: 50%;
+  }
+  .hidden {
+    display: none;
+    position: relative;
+    right: 20%;
+    transform: rotate(-30deg);
+    width: 170%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .w-flex {
+    width: 80%;
+  }
+  .unhidden {
+    display: none;
+  }
+  .hidden {
+    display: block;
+    position: relative;
+    right: 0%;
+    left: 5%;
+    transform: rotate(-30deg);
+    width: 100%;
+  }
+}

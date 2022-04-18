@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "omang",
+    "password": "123456",
+    "database": "traditional_game_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "omang",
+    "password": "123456",
+    "database": "traditional_game_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "omang",
+    "password": "123456",
+    "database": "traditional_game_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

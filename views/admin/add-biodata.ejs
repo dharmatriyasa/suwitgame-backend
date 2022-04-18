@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header class="full-screen">
+      <%- include('../partials/navbar.ejs') %>
+          <div class="m-3">
+            <h1>Traditional Game</h1>
+            <h1>Dashboard</h1>
+          </div>
+          <div class="container">
+            <form action="/admin/<%= id %>/add-biodata" method="POST">
+                <div class="mb-3">
+                  <label for="fullname" class="form-label">Fullname: </label>
+                  <input name="fullname" type="text" class="form-control" id="fullname" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="address" class="form-label">Address: </label>
+                  <input name="address" type="text" class="form-control" id="address" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email: </label>
+                  <input name="email" type="text" class="form-control" id="email" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="phonenumber" class="form-label">Phonenumber: </label>
+                  <input name="phonenumber" type="text" class="form-control" id="phonenumber" aria-describedby="emailHelp">
+                </div>
+               
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+          </div>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

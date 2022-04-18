@@ -1,0 +1,8 @@
+* {
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.full-screen {
+  min-height: 100vh;
+  width: 100%;
+}
